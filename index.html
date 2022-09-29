@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <!-- Menampilkan output secara langsung di browser -->
+    <script>
+        // array kosong
+        let polos = [];
+
+        // array yang sudah diisi
+        let tingkat = ['boya', 'hoya', 'toya'];
+
+        // menampilkan array di dalam nilai tingkat
+        document.writeln("===================================");
+        document.writeln("<br>");
+        document.writeln("<b>Menampilkan Array</b>");
+        document.writeln("<br>");
+        document.writeln(tingkat);
+        document.writeln("<br>");
+        document.writeln("===================================");
+
+        // manambahkan array di dalam nilai tingkat
+        document.writeln("===================================")
+        document.writeln("<br>");
+        document.writeln("<b>Menambahkan Array</b>");
+        tingkat.push('mantap_juga', 'semangat_belajar');
+        document.writeln("<br>");
+        document.writeln(tingkat);
+        document.writeln("<br>");
+        document.writeln("===================================");
+
+        // melihat panjang array di dalam nilai tingkat
+        document.writeln("===================================");
+        document.writeln("<br>");
+        document.writeln("<b>Melihat Berapa Panjang Array</b>");
+        document.writeln("<br>");
+        document.writeln(tingkat.length);
+        document.writeln("<br>");
+        document.writeln("===================================");
+
+        // menghapus array didalam nilai tingkat
+        document.writeln("===================================");
+        document.writeln("<br>");
+        document.writeln("<b>Menghapus Array</b>");
+        delete tingkat[2];
+        document.writeln(tingkat);
+        document.writeln("<br>");
+        document.writeln("===================================");
+
+        // mendapatkan data di posisi index di dalam array
+        document.writeln("===================================");
+        document.writeln("<br>");
+        document.writeln("<b>Mendapatkan data index di Array</b>");
+        document.writeln("<br>");
+        document.writeln(tingkat[3]);
+        document.writeln("<br>");
+        document.writeln("===================================");
+
+        // mengubah data array di dalam nilai tingkat
+        document.writeln("===================================");
+        document.writeln("<br>");
+        document.writeln("<b>Mengubah data array</b>");
+        document.writeln("<br>");
+        tingkat[2] = 'medan';
+        document.writeln(tingkat);
+        document.writeln("===================================");
+    </script>
+
+    <!-- Menampilkan output dengan file terpisah di console -->
+    <script src="array.js"></script>
+</body>
+
+</html>
